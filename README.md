@@ -7,7 +7,7 @@ Simple crash bot with logs and db
 How to download? Click green button "Code" and "Dwonload ZIP"
 
 How to start?
-Edit main.py to add bot token
+Edit config.ini to add bot token
 ```bash
 python main.py
 ```
