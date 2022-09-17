@@ -1,4 +1,8 @@
-import os, discord, aiohttp, configparser
+import os, aiohttp, configparser
+try:
+    import discord
+except:
+    os.system("pip3 install discord.py==1.7.3")
 from discord.ext import commands
 from chardet.universaldetector import UniversalDetector
 
